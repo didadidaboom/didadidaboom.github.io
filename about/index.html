@@ -108,12 +108,12 @@
                     <!-- 
 
                         
-                        <li>
-                            <a href="/hexo-theme-wublog/about/">About</a>
-                        </li>
-                        
                     
 
+                        
+                        <li>
+                            <a href="/hexo-theme-wublog/archives/">Archives</a>
+                        </li>
                         
                     
 
@@ -126,7 +126,7 @@
 
                         
                         <li>
-                            <a href="/hexo-theme-wublog/archives/">Archives</a>
+                            <a href="/hexo-theme-wublog/about/">About</a>
                         </li>
                         
                      -->
@@ -217,9 +217,36 @@
 
                     
 
+                    
+                    <!-- gitment评论 start -->
+                    <div class="comment">
+                        <div id="container"></div>
+                    </div>
+                    <!-- gitment评论 end -->
+                    
+
 
                     
 
+                    
+
+                    
+                    <!-- gitment评论 start -->
+                    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+                    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+                    <script>
+                    var gitment = new Gitment({
+                    id: 'About', // 可选。默认为 location.href
+                    owner: 'didadidaboom', //'你的 GitHub ID',
+                    repo: 'hexo-theme-comment', //'存储评论的 repo',
+                    oauth: {
+                        client_id: '0fa2344649c866646aa8', //'你的 client ID',
+                        client_secret: 'fe21d28bf8881a122e652d9980199d43a5ff9464', //'你的 client secret',
+                    },
+                    })
+                    gitment.render('container')
+                    </script>
+                    <!-- gitment评论 end -->
                     
 
 
