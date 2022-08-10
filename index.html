@@ -18,7 +18,7 @@
         
     </title>
 
-    <link rel="canonical" href="http://didadidaboom.github.io/blog/">
+    <link rel="canonical" href="http://didadidaboom.github.io/blog/blog/">
 
     <!-- Bootstrap Core CSS -->
     
@@ -57,6 +57,32 @@
 
     <!-- ga & ba script hoook -->
     <script></script>
+    <!-- Google Analytics -->
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXCWLF77NN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXCWLF77NN');
+    </script>
+    
+    <!-- Baidu Tongji -->
+    
+    <script>
+        // dynamic User by Hux
+        var _baId = '696a0020e64375339cfade5ea8c477aa';
+        // Originial
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "//hm.baidu.com/hm.js?" + _baId;
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    
 <meta name="generator" content="Hexo 6.2.0"></head>
 <!-- this is partial head end <br> -->
 
@@ -115,16 +141,6 @@
                     <!-- 
 
                         
-                    
-
-                        
-                        <li>
-                            <a href="/blog/contact/">contact</a>
-                        </li>
-                        
-                    
-
-                        
                         <li>
                             <a href="/blog/archives/">Archives</a>
                         </li>
@@ -141,6 +157,16 @@
                         
                         <li>
                             <a href="/blog/tags/">Tags</a>
+                        </li>
+                        
+                    
+
+                        
+                    
+
+                        
+                        <li>
+                            <a href="/blog/contact/">contact</a>
                         </li>
                         
                      -->
@@ -496,7 +522,7 @@
 <script>
     // only load tagcloud.js in tag.html
     if($('#tag_cloud').length !== 0){
-        async("http://didadidaboom.github.io/blog/js/jquery.tagcloud.js",function(){
+        async("http://didadidaboom.github.io/blog/blog/js/jquery.tagcloud.js",function(){
             $.fn.tagcloud.defaults = {
                 //size: {start: 1, end: 1, unit: 'em'},
                 color: {start: '#bbbbee', end: '#0085a1'},
@@ -515,40 +541,6 @@
 </script>
 
 
-<!-- Google Analytics -->
-
-
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXCWLF77NN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-XXCWLF77NN');
-</script>
-
-
-
-
-<!-- Baidu Tongji -->
-
-<script>
-    // dynamic User by Hux
-    var _baId = '696a0020e64375339cfade5ea8c477aa';
-
-    // Originial
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?" + _baId;
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-</script>
-
-
 <!-- Side Catalog -->
 
 
@@ -556,7 +548,7 @@
 
 
 <!-- Image to hack wechat -->
-<img src="http://didadidaboom.github.io/blog/img/icon_wechat.png" width="0" height="0" />
+<img src="http://didadidaboom.github.io/blog/blog/img/icon_wechat.png" width="0" height="0" />
 <!-- Migrate from head to bottom, no longer block render and still work -->
 
 </body>
